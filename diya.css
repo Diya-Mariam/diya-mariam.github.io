@@ -320,7 +320,7 @@ img{
 .work__container{
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
-  grid-gap: 20px;
+  grid-gap: 33px;
   align-items: center;
   justify-content: center;
 }
@@ -335,13 +335,13 @@ img{
 
 .post{
     
-    border: 1px solid rgb(228, 186, 186);
-    box-shadow: 2px 2px 1px rgba(16, 18, 19, 0.15); 
+    border: solid 1px rgb(171, 163, 240);
+    box-shadow: 2px 2px 1px #d1b93426; 
 }
 
 .post-preview{
-    background-color: rgb(235, 175, 175);
-    padding:  15px;  
+    background-color: rgb(186, 175, 235);
+    padding:  19px;  
 }
 .post-preview h6{
     font-size: 17px;
@@ -350,7 +350,8 @@ img{
 .post a{
     background: #0E2431;
     color: #fff;
-    padding: 5px 20px;  
+    padding: 5px 20px; 
+    border-radius: 5px; 
 }
 .post a:hover{
     opacity: .7;
