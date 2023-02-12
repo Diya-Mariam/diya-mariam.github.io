@@ -27,6 +27,10 @@
   }
 }
 
+.post{
+  color: white;
+}
+
 /*===== Margenes =====*/
 :root{
   --mb-1: 0.5rem;
@@ -314,6 +318,8 @@ img{
 
 .skills__img{
   border-radius: .5rem;
+  height: 50vh;
+  width: 120%;
 }
 
 /* ===== WORK =====*/
@@ -340,7 +346,7 @@ img{
 }
 
 .post-preview{
-    background-color: rgb(186, 175, 235);
+    background-color: #4070F4;
     padding:  19px;  
 }
 .post-preview h6{
